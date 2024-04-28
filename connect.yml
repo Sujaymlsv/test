@@ -3,7 +3,7 @@
   become: true
   tasks:
           - name: install apache2 on node1
-            apt:
+            yum:
               update_cache: yes
           - name: install apache2
             apt: name=apache2 state=present
