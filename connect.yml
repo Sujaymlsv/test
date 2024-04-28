@@ -1,5 +1,5 @@
 ---
-- hosts: 54.226.90.70
+- hosts: 13.234.116.81
   become: true
   tasks:
           - name: install apache2 on node1
